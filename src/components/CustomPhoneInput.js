@@ -94,8 +94,8 @@ const CustomPhoneInput = ({
                 }}
                 containerClass={classes.borderClass}
                 dropdownStyle={{ height: '300px', width: '267px' }}
-                onlyCountries={[]}
-                //  disableDropdown="false"
+                onlyCountries={[defaultCountry]}
+                disableDropdown="false"
             />
             {touched && errors && (
                 <CustomTypography

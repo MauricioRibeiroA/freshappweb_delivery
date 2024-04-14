@@ -415,7 +415,7 @@ export const english = {
     'Open Your Own Virtual Restaurant On':
         'Open Your Own Virtual Restaurant On',
     'Join as delivery man on': 'Join as delivery man on',
-    'Lets Connect !': 'Lets Connect !',
+    'Lets Connect !': 'Lets Connect !!!!',
     'Stay upto date with restaurants and foods around you':
         'Stay upto date with restaurants and foods around you',
     'Best Restaurants Near Your Location':

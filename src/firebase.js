@@ -8,14 +8,14 @@ import {
 import { useStoreFcm } from './hooks/react-query/push-notification/usePushNotification'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC5az9sNi0x6QoNgHZSbs57ZPSjuZPhr1Q",
-  authDomain: "pedelogo-3f824.firebaseapp.com",
-  projectId: "pedelogo-3f824",
-  storageBucket: "pedelogo-3f824.appspot.com",
-  messagingSenderId: "1042917200218",
-  appId: "1:1042917200218:web:595ee5847aad3dfb736363",
-  measurementId: "G-D1ER4LJ6FX"
-  measurementId: "G-D1ER4LJ6FX"
+  apiKey: "AIzaSyAeliEuUDxVV3-nkO-Ell9fFcifr9jtQtU",
+  authDomain: "pede-logo-99040.firebaseapp.com",
+  projectId: "pede-logo-99040",
+  storageBucket: "pede-logo-99040.appspot.com",
+  messagingSenderId: "1025418518982",
+  appId: "1:1025418518982:web:2eab5b475f43da9ea752c7",
+  measurementId: "G-8WE2X7HPC2"
+
 }
 const firebaseApp = initializeApp(firebaseConfig)
 const messaging = (async () => {
@@ -33,7 +33,7 @@ const messaging = (async () => {
 
 export const fetchToken = async (setTokenFound, setFcmToken) => {
     return getToken(await messaging, {
-        vapidKey: '',
+        vapidKey: 'BFU01cy5d7Uyt6lgJMfDU0V7QJrYgfNYCg5kFLCPzHl44ENRK0CpnK5SeukUG-Roco1sjhyW76-WM22rq0aEwCY',
     })
         .then((currentToken) => {
             if (currentToken) {

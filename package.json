@@ -1,5 +1,5 @@
 {
-    "name": "StackFood",
+    "name": "pedelogo",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -9,12 +9,12 @@
         "@emotion/server": "^11.4.0",
         "@emotion/styled": "^11.8.1",
         "@material-ui/core": "^4.12.3",
-        "@material-ui/pickers": "^3.3.10",
         "@mui/icons-material": "^5.4.4",
         "@mui/lab": "^5.0.0-alpha.72",
         "@mui/material": "^5.11.6",
         "@mui/styled-engine-sc": "^5.11.0",
         "@mui/styles": "^5.7.0",
+        "@mui/x-date-pickers": "^7.2.0",
         "@mui/x-date-pickers": "^5.0.20",
         "@react-google-maps/api": "^2.10.2",
         "@reduxjs/toolkit": "^1.8.0",
@@ -102,5 +102,9 @@
     "devDependencies": {
         "eslint": "^8.18.0",
         "prettier": "2.5.1"
-    }
+    },
+    "description": "PedeLogo",
+    "main": "next.config.js",
+    "author": "",
+    "license": "ISC"
 }
